@@ -3,5 +3,35 @@ body {
        and use the OS’s UI font as the website font
      */
     font: 100%/1.5 system-ui;
+    max-width: 100ch;
+    margin-inline: auto;
+    padding: 16px;
    }
+
+nav {
+  display: flex;
+  margin-bottom: 8px;
+  border-bottom: 1px solid oklch(80% 3% 200);
+}
+
+a {
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.current {
+  border-bottom: 0.4em solid oklch(80% 3% 200);
+}
+
+html {
+  --color-accent: oklch(87.51% 0.23444 151.1848);
+}
+
+a:hover {
+  border-bottom: 0.4em solid var(--color-accent);
+  background-color: oklch(from var(--color-accent) 95% 5% h);
+}
    

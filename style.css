@@ -26,6 +26,13 @@ a {
   border-bottom: 0.4em solid oklch(80% 3% 200);
 }
 
+.projectlink {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  padding: 0em;
+}
+
 html {
   --color-accent: oklch(87.51% 0.23444 151.1848);
 }
@@ -73,6 +80,7 @@ article {
   display: grid;
   grid-template-rows: subgrid;
   grid-row: span 3;
+  padding: 0.5em;
 }
 
 h1 {
@@ -82,9 +90,10 @@ h1 {
 }
 
 h2 {
-  margin: 0;
+  margin: 0.3em;
   line-height: 1.1;
   text-wrap: balance;
+  text-align: center;
 }
 
 h3 {

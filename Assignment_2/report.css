@@ -11,7 +11,7 @@
 	--color-neutral-30: hsl(220 10% 30%);
 	--color-neutral-20: hsl(220 10% 20%);
 	--color-neutral-10: hsl(220 10% 10%);
-	--color-accent-100: hsl(150, 100%, 50%);
+	--color-accent-40: hsl(150, 100%, 40%);
 }
 
 html {
@@ -46,7 +46,7 @@ h1 {
 		padding: .2em .5em;
 		margin-inline: auto;
 		color: white;
-		background: var(--color-neutral-40);
+		background: var(--color-accent-40);
 		font-size: 40%;
 		text-transform: uppercase;
 		white-space: nowrap;

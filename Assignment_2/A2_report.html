@@ -20,97 +20,139 @@
 		<section>
 			<h2>Subtheme: Zoning and Housing Supply</h2>
 			<p>
-				[Insert description here]
+				One of the barriers preventing people from having affordable housing is the set of regulations on what types of buildings can be
+				constructed in a certain area, called zoning. In the past, these regulations have been used to restrict certain types of people
+				from owning homes in different parts of Massachusetts, usually by only allowing single-family homes to be built in an area, which
+				are more expensive than other types of housing. This analysis covers data on where zoning exists in the state, including the 
+				percentage of single-family homes in each municipality, and the race, age, and other demographics of the people living in an area.
+				All municipalities in the dataset are under zoning.
 			</p>
 
 			<h3>Overall Analysis Questions</h3>
 			<ol>
 				<li>
-					???
+					How have different groups of people been affected by exclusive zoning on housing, in the form of restricting building types to
+					single-family homes?
 					<p>
-						???
+						I would like to compare the population of people living in municipalities where only single-family houses are allowed to
+						the population of people living on less restrictive municipalities. This will better reveal the effects and likely motives
+						behind zoning practices in Massachusetts.
 					</p>
 				</li>
-				<li>???
+				<li>
+					How does the total number of households in a municipality change as the percentage of single-family zoning change?
 					<p>
-						???
+						One of the consequences of zoning is that there are fewer homes in Massachusetts that are available to own and live in. I
+						am curious of just how severe the regulation of single-family homes is towards reducing the number of existing homes,
+						specifically how quickly does the number of homes drop as the amount of zoning increases.
 					</p>
 				</li>
-				<li>???</li>
+				<li>
+					What are the gaps in income between people who live in single-family zoning municipalities versus people who don't?
+					<p>
+						This question aims to show just how important the presence of municipalities without zoning is in allowing people to afford
+						homes. This analysis should consider how certain demographics affect this gap as well.
+					</p>
+				</li>
 			</ol>
 		</section>
 
 		<section>
 			<h2>Discoveries & Insights</h2>
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="images/fig1.png" alt="A bar chart with one bar labeled 'No single-family homes' with a measure of 463 people, and the
+				other bar labeled 'Only single-family homes' with a measure of 319 people." />
 				<figcaption>
-				???
+				This chart compares municipalities with 0% single-family homes with those with 100% single-family homes. It shows that
+				municipalities with only single-family homes are on average about 30% less populated than those with no single-family homes, which
+				would suggest that single-family homes are limiting the capacity of a region in some way.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="images/fig2.png" alt="A pair of pie charts, labeled 'No single-family homes' and 'Only single-family homes', both with
+				slices labeled 'Male' and 'Female' that are almost equally sized." />
 				<figcaption>
-				???
+				To investigate the variation in population further, I aggregated the population data for no-single-family and only-single-family
+				municipalities according to gender, age, and race, to compare the distributions of each. According to these two pie charts, there
+				doesn't seem to be a significant difference between the male and female populations in either municipality type, so it probably
+				isn't a relevant factor to zoning.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="images/fig3.png" alt="A pair of pie charts, labeled 'No single-family homes' and 'Only single-family homes', both with
+				slices labeled 'under 18', '18-64', and '65+'. The 'Only single-family homes' pie has a slightly larger 'under 18' slice and a
+				slightly smaller '65+' slice." />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+				Similar to the gender pie charts, these charts show the distribution of ages in no-single-family and only-single-family
+				municipalities. It seems that there are slightly more minors and slightly fewer seniors in regions with only single-family homes
+				than in regions with no single-family homes. But the difference in distributions is less than 5%, so this probably isn't influenced
+				by zoning either.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="images/fig4.png" alt="A pair of pie charts, labeled 'No single-family homes' and 'Only single-family homes', both with
+				slices labeled with various races. The 'Only single-family homes' pie has a slightly larger 'White' slice." />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+				At this point, race would by the attribute of the population I would expect to be affected by zoning the most. I'm familiar with
+				the practice of redlining, so I would understand if racial prejudices were at play when the restrictive housing regulations were
+				placed. But the distrubutions of race between municipaity types seem to only differ by about 5%, which is the amount that the White
+				population is larger in the set of only-single-family regions. Still, it seems that what little minority population there was in the
+				no-single-family regions is scaled down significantly in the other regions, so maybe this was the cause and effect of zoning
+				after all.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="images/fig5.png" alt="A bar chart with one bar labeled 'No single-family' with a measure of 818 people, and the
+				other bar labeled 'Only single-family' with a measure of 741 people." />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+				Moving on to households, it seems that the 100% single-family municipalities have almost the same number of homes as the 0%
+				single-family municipalities. The relative scale between either set of regions is less severe than the relative scale of
+				populations, which leads me to believe that single-family homes house fewer people on average than other types of homes.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="images/fig6.png" alt="A histogram with two sets of bars labeled 'No single-family' and 'Only single-family', with
+				trendlines for both sets. The bars are ordered by intervals of income amounts." />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+				I expected affordability to be a huge component in how zoning prevents people from owning and maintaining a home. Sure enough, This
+				histrogram shows a difference is distribution of incomes between people in no-SF regions and people in only-SF regions. It is a bit
+				subtle, but the no-SF distribution is a little further left in the chart than the only-SF distribution, meaning that there are more
+				no-SF households with low incomes than only-SF households, and there are more only-SF households with high incomes than no-SF
+				households. This would indicate that single-family homes probably require higher incomes to keep, because they are just more
+				expensive to pay off.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="images/fig7.png" alt="A histogram with two sets of bars labeled 'No single-family' and 'Only single-family', with
+				trendlines for both sets. The bars are ordered by household size." />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+				After investigating the differences in income, I was curious if there really was a measurable difference in household sizes between
+				the two types of municipalities, like I hypothesized eariler. To my surprise, it would seem that I was likely incorrect. According
+				to this chart, single-family households generally hold more people than other households. So lack of space is probably not a
+				contributing factor to the issues with zoning. As a clarification, both family and non-family households are included in the
+				displayed data.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="images/fig8.png" alt="A histogram with two sets of bars labeled 'No single-family' and 'Only single-family', with
+				trendlines for both sets. The bars are ordered by income per person." />
 				<figcaption>
-				ENTER IMAGE CAPTION HERE.
+				This last visualization compares the income per person for different households. I estimated the incomes for each household using
+				the given intervals in the dataset, then I multiplied together fractions of households with different attributes from the last two
+				visualizations (income amount and household size). Then I divided the estimated income amounts by each household size to estimate
+				the income per person for each product. The result is a histogram displaying income amounts with the estimated portion of
+				households from each municipality type that have that amount. The result is similar to Figure 6, in that single-family households
+				seem to have more income-per-person than the other households.
 				</figcaption>
 			</figure>
-
-			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
-				<figcaption>
-				ENTER IMAGE CAPTION HERE.
-				</figcaption>
-			</figure>
-
-			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
-				<figcaption>
-				ENTER IMAGE CAPTION HERE.
-				</figcaption>
-			</figure>
+			
 		</section>
 
 		<section>

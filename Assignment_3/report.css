@@ -124,3 +124,7 @@ figure {
 		}
 	}
 }
+
+img {
+	max-width: 50%;
+}

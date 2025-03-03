@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<title>Vis & Society Assignment 3</title>
-	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+	<link rel="stylesheet" href="/Assignment_3/report.css" />
 </head>
 
 <body>
@@ -30,9 +30,9 @@
 			</p>
 
 			<ul>
-				<li>From 2020 to 2022, COVID-19 cases were highest at the end of this range, in January of 2022.</li>
-				<li>New COVID-19 cases seem to increase in frequency the most during the winter, then decrease later.</li>
-				<li>COVID_19 cases are generally becoming more and more frequent as time goes on.</li>
+				<li>From 2020 to 2022, the rate of new COVID-19 cases was highest at the end of this range, in January of 2022.</li>
+				<li>The rate of new COVID-19 cases seems to increase the most during the winter, then decrease later.</li>
+				<li>New COVID_19 cases are generally becoming more and more frequent as time goes on.</li>
 			</ul>
 
 			<p>
@@ -40,9 +40,17 @@
 			</p>
 
 			<ul>
-				<li>CRITIQUE 1</li>
-				<li>CRITIQUE 2</li>
-				<li>CRITIQUE 3</li>
+				<li>The graph uses a spiral to display data along the axis of time, such that data with the same date and different years are
+					shown at the same angle, making it easy to compare information within a particular month, as well as track the data over
+					several months. It's easy to see where new COVID-19 cases are at their highest, and where fluctuations repeat throughout the
+					year.</li>
+				<li>The arc length on the time axis representing a month gets longer as the graph progresses, having a similar effect to using an
+					exponential scale for the time axis. This does not seem to have any purpose in the graph, and could mislead viewers into
+					misinterpreting the rate of increase of COVID-19 cases.</li>
+				<li>The graph uses minimal colors to indicate the data, and just enough labels are used to make the graph readable. It's also
+					straightforward to find the start of the graph and read it through to the end. It would be nice if certain important events
+					related to the pandemic were indicated at certain parts of the time axis, so inferences could be drawn about what caused
+					certain fluctuations in COVID-19 rates.</li>
 			</ul>
 		</section>
 
@@ -50,9 +58,10 @@
 			<h2>Visualization Sketches</h2>
 
       <figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="images/6.c35_a3_s1.jpg" alt="" />
 				<figcaption>
-          BRIEF CAPTION HERE.
+					This graph concept is similar to the original graph, except that the time axis overlaps itself in a circle instead of spiraling
+					away from the center. The data color also shifts along a gradient to indicate the year.
 				</figcaption>
 			</figure>
 
@@ -61,15 +70,19 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE 1</li>
-				<li>RATIONALE 2</li>
-				<li>RATIONALE 3</li>
+				<li>Since the time axis always remains the same distance from the center of the graph, the arc length for each month is now the
+					same for every year in which there is data, removing any unwanted visual biases and making the data easier to read and interpret.</li>
+				<li>Color would be used to indicate the year, instead of height. This graph would use a gradient on which it's easier to locate
+					where certain colors are. But maybe the constant change in color would make it harder to differentiate between the years...</li>
+				<li>The month labels are moved in towards the center, to give room to the graph data. They don't have to be rotated like they are
+					in the sketch, as long as they are clearly visible.</li>
 			</ul>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="/Assignment_3/images/6.c35_a3_s2.jpg" alt="" />
 				<figcaption>
-          BRIEF CAPTION HERE.
+					This graph displays the data as a sequence of line graphs for each year, removing the curvature entirely. Only one hue would be
+					used for the data, just like in the original graph.
 				</figcaption>
 			</figure>
 
@@ -78,15 +91,22 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE 1</li>
-				<li>RATIONALE 2</li>
-				<li>RATIONALE 3</li>
+				<li>This graph intends to make data easier to read by removing the circle shape of the original graph entirely, opting for sub-graphs
+					that can be read like a typical piece of text. It's less visually interesting and unique, but I suppose not every graph has to
+					be a work of art to get its point across.</li>
+				<li>Separating the data by year into their own sub-graphs makes it easier to differentiate between each set of data, without the
+					viewer having to check a legend to keep track of the years. As such, there is no longer any color in this graph.</li>
+				<li>In fact, this graph has no legend at all. All of the labels are now embedded into the graph itself, like how the vertical axis
+					shows the height of certain new case rates instead of the triangular width indicator from the original graph. I would've moved
+					the year labels to the other side of the sub-graphs for clarity, but there were explicit instructions to write in pen. I don't
+					want to find out what would happen if I wrote in pencil instead...</li>
 			</ul>
 
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="/Assignment_3/images/6.c35_a3_s3.jpg" alt="" />
 				<figcaption>
-          BRIEF CAPTION HERE.
+					This is a simplified version of the sketch above, which combines all three sub-graphs into one graph. It's otherwise exactly
+					the same as the previous sketch.
 				</figcaption>
 			</figure>
 
@@ -95,9 +115,14 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE 1</li>
-				<li>RATIONALE 2</li>
-				<li>RATIONALE 3</li>
+				<li>The intention with this sketch was to simplify the display further by putting all of the data on the same set of axes, making
+					comparisons between years even simpler.</li>
+				<li>The axes and labels are left unchanged from the last sketch, except that the three lines are now labeled with their respective
+					years. It might be a bit harder to differentiate between the years now, so maybe I would add color back in, for a layer of
+					redundancy.</li>
+				<li>While there are ticks for every month along the horizontal axis, The month labels only include January, April, July, and
+					October. This was an arbitrary choice borrowed from the original graph, but I realize there isn't really any point in leaving
+					out the other months, besides the fact that they might not all fit. We'll see how this axis looks in the final graph.</li>
 			</ul>
 		</section>
 
@@ -105,9 +130,10 @@
 			<h2>Final Visualization Design</h2>
       
 			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
+				<img src="/Assignment_3/images/6.c35_a3_revision.png" alt="" />
 				<figcaption>
-          BRIEF CAPTION HERE.
+					This is a revised version of the original graph, that aims to be easier to interpret than before. It actually includes more
+					data than the original graph, specifically data from January to September of 2022.
 				</figcaption>
 			</figure>
 

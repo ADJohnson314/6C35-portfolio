@@ -18,7 +18,7 @@
 	</header>
 
 	<main>
-    <h2>Proposition: NYPD Civilian Complaints show that police officers tend to be biased against members of minority races.</h2>
+    <h2>Proposition: NYPD Civilian Complaints show that police officers tend to be biased against members of other races.</h2>
 
 		<section>
       <h3>FOR the Proposition</h3>
@@ -26,7 +26,9 @@
       <figure>
 				<img src="/Assignment_4/images/Race Distribution of Complaints against NYC Police Officers.png" alt="" />
 				<figcaption>
-					BRIEF CAPTION HERE.
+					This graph aggregates complaints against the NYPD by race, showing both the race of civilians sending complaints and the race
+					of officers receiving them. The graph shows a spike in complaints from Black civilians to White police officers, signaling that
+					Black civilians are unfairly discriminated against by the NYPD.
 				</figcaption>
 			</figure>
 
@@ -35,9 +37,23 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE_1</li>
-				<li>RATIONALE_2</li>
-				<li>RATIONALE_3</li>
+				<li>This dataset only included substantiated complaints, meaning that the NYPD itself agreed that these complaints were reasonable.
+					I chose to filter out the unsubstantiated and exonerated complaints as a way of removing any bias that citizens would naturally
+					have against police officers. Essentially, this is data that the NYPD would supposedly admit is representative of itself. Even
+					when the data is filtered in their favor, the message of this graph is not very favorable... (Persuasion Score: 2)</li>
+				<li>Specific colors were used to indicate the number of complaints sent between people of each pair of races in the dataset. I went
+					with dark red to indicate a high number of complaints, and a light-yellow to indicate a low number of complaints (with white
+					representing no complaints). I wanted to make it easy to differentiate between the colors, and I think I succeeded because the
+					peak in the graph clearly stands out from the rest of it. The color choice is not particularly deceptive, but beyond a certain
+					extent it only serves to support the proposition. (Persuasion Score: 1.5)</li>
+				<li>The races of the citizens are ordered in the graph in the same sequence as the races of the officers. I did this so that it
+					would be easy to find cells where both people involved in a complaint were the same race (they're all along the diagonal from
+					the top-left to the bottom-right). The idea was to make any hypothetical discrimination easy to recognize: light colors along
+					the diagonal, and dark colors everywhere else. I feel like the only purpose of ordering the races any other way would be to
+					deceptively conceal any patterns between people of certain races. (Persuasion Score: 2)</li>
+				<li>This graph has a rather neutral title, which I'm only just realizing was a design decision itself. I think I wanted to let the
+					data alone convince the viewer of the message, instead of a title that suggests an opinion before the viewer has even processed
+					the data. I suppose this decision was made in earnest, even though I wasn't aware of it until now. (Persuasion Score: 2)</li>
 			</ul>
     </section>
 
@@ -47,7 +63,11 @@
       <figure>
 				<img src="/Assignment_4/images/Distributions of Board Dispositions, by Race.png" alt="" />
 				<figcaption>
-          BRIEF CAPTION HERE.
+					This graph shows the proportion of disposition labels assigned to complaints from citizens of each race. "Unsubstantiated"
+					means the complaint was considered unreasonable and ignored, "Substantiated" means that the NYPD agreed that one of their
+					officers broke one or more of their rules, and "Exonerated" means that the NYPD acknowledged the complaint as reasonable, but
+					did not agree that one of their officers broke any rules. Each pie chart is very similar to the others, suggesting that the
+					NYPD handles all complaints in the same way, regardless of the race of the complainant.
 				</figcaption>
 			</figure>
 
@@ -56,16 +76,32 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE_1</li>
-				<li>RATIONALE_2</li>
-				<li>RATIONALE_3</li>
+				<li>This set of pie charts is meant to show how the NYPD handles complaints from members of each race, by displaying the relative
+					frequencies of dispositions assigned to each complaint (i.e. whether they accept complaints as reasonable or not.) The idea was
+					to make a model to predict how the NYPD would respond to any given complaint, given only info about the race of the
+					complainant. Even though I chose this representation of the data to contradict the other graph, I probably would've considered
+					this model reasonable and earnest if I chose to create it before the previous graph. (Persuasion Score: 2)</li>
+				<li>I chose to label the percentages of the pie charts so the viewer wouldn't have to estimate the proportions, and to better
+					convince the viewer that they each displayed mostly the same distribution. Even then, there are differences greater than 5%
+					between particular slices across the charts, which I consider to be statistically significant enough to disagree with that
+					message. On top of that, I did make a conscious choice to conceal the raw counts of each set of complaints, as the disparity
+					in counts would be a glaring contradiction to the message. (Persuasion Score: -1)</li>
+				<li>Like the other graph, I also chose to give this one a neutral title. It wasn't really much to consider, but it doesn't give the
+					graph a feeling of objectiveness and truthfulness, even though I did obscure some information elsewhere. (Persuasion Score: 2)</li>
 			</ul>
     </section>
 
     <section>
       <h2>Final Reflection</h2>
 
-      <p>[WRITE FINAL REFLECTION PARAGRAPHS HERE.]</p>
+      <p>Going into this assignment, I expected to find it difficult to design a graph supporting the proposition, and to find it much easier to
+		design one against the proposition. I was very surprised to see that it was actually the other way around; I practically designed the
+		supporting graph on accident! Even when I tried to modify the graph in favor of the NYPD, the graph still painted a very convincing
+		picture of bias within the police force. I also found that the decisions I used to design the graph against the proposition were more
+		earnest than I expected, even though I still obscured some vital information to make it convincing. It all tells me that different
+		visualizations can convey wildly different perspectives about the same data, even when they both are designed with the best intentions. So
+		the best graphs are the ones that display as much data as possible in a form that's easiest to understand. I guess the real difference
+		between an honest graph and a deceptive graph isn't in what they display, but in what they hide.</p>
     </section>
 	</main>
 </body>
